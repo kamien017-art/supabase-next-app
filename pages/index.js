@@ -8,7 +8,7 @@ export default function Home() {
   const [nationality, setNationality] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
-  const [editingId, setEditingId] = useState(null); // <--- ID użytkownika, którego edytujemy
+  const [editingId, setEditingId] = useState(null); // <--- ID użytkownika, którego edytujemyertrtre
 
   // Pobieranie użytkowników
   useEffect(() => {
